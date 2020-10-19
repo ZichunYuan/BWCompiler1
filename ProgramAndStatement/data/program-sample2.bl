@@ -1,0 +1,24 @@
+PROGRAM Test IS
+
+  INSTRUCTION a IS
+     move
+  END a
+  
+  INSTRUCTION b IS
+    turnleft
+    turnright
+  END b
+  
+  INSTRUCTION c IS
+    infect
+  END c
+
+BEGIN
+  WHILE true DO
+    IF next-is-enemy THEN
+    c
+    END IF
+    b
+    a
+  END WHILE
+END Test

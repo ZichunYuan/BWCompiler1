@@ -1,0 +1,11 @@
+PROGRAM Test IS
+  
+  INSTRUCTION go IS
+    infect
+  END go
+
+BEGIN
+  WHILE next-is-enemy DO
+    go
+  END WHILE
+END Test

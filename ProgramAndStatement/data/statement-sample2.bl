@@ -1,0 +1,11 @@
+IF next-is-enemy THEN
+  infect
+END IF
+IF random THEN
+  turnleft
+ELSE
+  turnright
+END IF
+WHILE true DO
+  move
+END WHILE
